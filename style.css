@@ -1,0 +1,95 @@
+body {
+    background-color: #04e752;
+    overflow-y: hidden;
+}
+body h1 {
+    text-align: center;
+    transform: translateY(-400%);
+    color: #0f0f0f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+    font-weight: 1000;
+}
+body input {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 1000;
+    transform: translateY(-90%);
+    display: flexbox;
+    margin-left: 650px;
+    background-color: #0e0e0e;
+    color: #fefefe;
+    border: none;
+    border-radius: 10px;
+}
+body #sonuclar {
+    margin-left: 800px;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translateY(-600%);
+}
+body .formul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    user-select: none;
+}
+body .container {
+    transform: translateY(-10%);
+}
+body .hesapla {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background-color: #fefefe;
+    color: #0e0e0e;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 30rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 635px;
+    transform: translateY(-100%);
+    font-weight: 1000;
+    transition: 0.2s;
+}
+body .hesapla:hover{
+    background-color: #0e0e0e;
+    color: #fefefe;
+}
+body .clear {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background-color: #fefefe;
+    color: red;
+    border: 2px solid red;
+    border-radius: 30rem;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    transition: 0.2s;
+    margin-left: 635px;
+}
+body .clear:hover{
+    background-color: red;
+    color: #fefefe;
+    border: 2px solid white;
+}
+body .yapimci {
+    color: #0c0c0c;
+    position: absolute;
+    transform: translateY(-1500%);
+    margin-left: 30px;
+    z-index: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    user-select: none;
+    margin-left: 1200px;
+}
