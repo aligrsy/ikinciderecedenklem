@@ -4,9 +4,9 @@ document.querySelector(".hesapla").addEventListener("click" , function(){
     const cDeger = document.querySelector(".c").value;
     const x1Deger = document.querySelector(".x1");
     const x2Deger = document.querySelector(".x2");
-    const resultx1 = (-bDeger+Math.sqrt(bDeger*bDeger-4*aDeger*cDeger))/2*aDeger;
+    const resultx1 = (-bDeger+Math.sqrt(bDeger*bDeger-4*aDeger*cDeger))/(2*aDeger);
     const resultx1Fix = resultx1.toFixed(2);
-    const resultx2 = (-bDeger-Math.sqrt(bDeger*bDeger-4*aDeger*cDeger))/2*aDeger;
+    const resultx2 = (-bDeger-Math.sqrt(bDeger*bDeger-4*aDeger*cDeger))/(2*aDeger);
     const resultx2Fix = resultx2.toFixed(2);
     x1Deger.textContent ="x1 = " + resultx1Fix;
     x2Deger.textContent ="x2 = " + resultx2Fix;
